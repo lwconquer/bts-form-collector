@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0px;
+    position: fixed;
+    z-index: 1;
+    top: 0%;
+    left: 0;
+    background-color: #e8e8e8;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 16px;   
+    color:black;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #4c4c4c;
+}
+
+.sidenav .closebtn {
+    position: relative;
+    top: 130;
+    right: 125px;
+    font-size: 36px;
+    margin-left: 50px;
+    cursor: 'pointer';
+     float: right
+}
+
+.main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    width: 600px;
+    height: 50px;   
+}
+
+.flex-item {    
+    width: 250px;
+    height: 100px;
+    margin: 20px;
+    margin-top:45px;
+}
+
+.flex-item-title {    
+    width: 80px;
+    height: 30px;
+    margin-right: 20px;    
+}
+
+
+.flex-item-title2 {    
+    width: 590px;
+    height: 30px;  
+}
+
+
+.dataTableDiv { 
+  position: relative; 
+}
+
+.sideBar{
+    min-height: 100%;
+     position: relative; 
+    box-sizing: border-box;
+}
+
+
+.forms{
+    overflow-y: scroll;
+    height: 77vh;
+    padding:10px
+}
+
+
+/* https://stackoverflow.com/questions/18424798/twitter-bootstrap-3-how-to-use-media-queries */
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+}
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+}
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+}
+
+
+
+@media(min-width:576px){}
+@media(min-width:768px){}
+@media(min-width:992px){}
+@media(min-width:1200px){}
